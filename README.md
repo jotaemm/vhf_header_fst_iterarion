@@ -4,4 +4,4 @@ This repository contains  the process and result of my Bachelor's Degree Final P
 - fdsafas
 - fasfsa
 
- For further information, please consult the wiki as the process and results are deeply described.
+ For further information, please consult the wiki as the process and results are explained in depth.
