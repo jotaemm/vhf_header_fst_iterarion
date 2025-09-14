@@ -19,3 +19,12 @@ Three elements are shown in the picture above:
 - **Antenna**: device used to transmit and receive electromagnetic waves. It takes the output signal from the VHF Header (RF_O) and transmits it to the medium. Furthermore, it receives the input signal (RF_I) and passes it to the VHF Header. 
 - **VHF Header**: electronic circuit that processes the signals it receives. It takes RF_I and converts it into FI_I. Conversely, it converts the signal FI_O from LoRa module into RF_O  
 - **SX1271 module**: communication circuit that generates the signals to be transmitted, and recovers the information from the signal received.
+
+The project followed a structured design process, consisting of the stages described below:
+- **System specifications**: define the parameters the system must have. These are the RF and IF frequencies, bandwith, input power, output power, etc.
+- **Proposed topologies**: evaluate possible component distributions to meet the system specifications.
+- **Topology selection**: choose the suitable topology based on efficiency and complexity criteria.
+- **Frequency planning**: perform the calculation of the local oscilator and the parameters of the filters defined in the topology.
+- **Components proposal**: among the possible options availables in the market, to look for the best candidates for each component.
+- **Power budget calculation**: based on the characteristics of the components proposed, calculate
+- **Final components selection**:
